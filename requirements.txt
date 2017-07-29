@@ -17,6 +17,7 @@ django-taggit==0.22.1
 django-taggit-serializer==0.1.5
 djangorestframework==3.6.2
 djangorestframework-jwt==1.10.0
+gunicorn==19.7.1
 idna==2.5
 oauthlib==2.0.2
 olefile==0.44
@@ -36,4 +37,4 @@ requirements==0.1
 six==1.10.0
 urllib3==1.21.1
 validators==0.11.3
-gunicorn
+whitenoise==3.3.0
