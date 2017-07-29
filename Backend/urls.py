@@ -17,8 +17,15 @@ from django.conf.urls import url, include
 from django.contrib import admin
 
 import Innovation
+from Backend import settings
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
 url(r'^', include('Innovation.url')),
+]
+
+urlpatterns += [
+    url(r'^static/(?P<path>.*)$', 'django.views.static.serve', {
+        'document_root': settings.STATIC_ROOT,
+    }),
 ]
