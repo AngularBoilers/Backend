@@ -3,7 +3,7 @@ certifi==2017.4.17
 chardet==3.0.4
 decorator==4.0.11
 defusedxml==0.4.1
-Django==1.9.1
+Django==1.11.28
 django-activity-stream==0.6.3
 django-allauth==0.31.0
 django-cors-headers==2.0.2
